@@ -1,0 +1,69 @@
+
+.myDashContainerClass{
+	margin: 50px auto;
+	border: 3px solid rgb(128, 128, 255);
+	padding: 10px;
+	background-color: aliceblue;
+	border-radius: 10px;
+	text-align:center;
+}
+
+
+
+.myDashTitleClass{
+  font-size: 30px;
+  font-weight: bold;
+  color: rgb(128, 128, 255);
+
+}
+
+.myDashEmailContainerClass{
+  padding: 6px;
+  color: rgb(26, 103, 103);
+  margin-top: 5px;
+}
+
+.myDashProfileImgClass{
+	background-image: url('');
+  height: 60px;
+  width: 60px;
+  background-position: fit;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display:none;
+}
+
+
+.myDashLogoutClass:hover, .myDashNavBtnClass:hover{
+	cursor:pointer;border:2px dashed;}
+
+
+.myDashNavBarClass{
+	margin-top:17px;
+}
+
+.myDashNavBtnClass{
+  display: inline-block;
+  border-radius: 5px;
+  color: rgb(26, 103, 103);
+  border: 1px solid;
+  padding: 7px;
+  font-size:18px;
+  margin-left: 11px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
