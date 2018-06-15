@@ -31,7 +31,7 @@
   display: inline-block;
   margin: 0 20px;
 }
-.loginSignupLinks:hover, .loginBtnClass:hover{cursor:pointer; border: 2px dashed;}
+.loginSignupLinks:hover{cursor:pointer;}
 
 
 .loginBtnClass{
@@ -44,5 +44,5 @@
   font-weight: bold;
   border-radius: 5px;
 }
-
+.loginBtnClass:hover{cursor:pointer; border: 2px dashed;}
 

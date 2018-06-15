@@ -9,33 +9,34 @@
 	<link href="css/mydashboard.css" rel="stylesheet" >
 
 </head>
+
 <body>
-
-<!--<div class="titleBannerClass">VocalFish</div>-->
-
-
 <div class="myDashContainerClass">
 	
 	<div class="myDashTitleBarClass">
 		<div class="myDashTitleClass">VocalFish</div>
 		<div class="myDashEmailContainerClass">
-			<span>Logged in as <b id="userEmail">greg@greg.com</b></span>
+			<span class="btnHover" id='userProfileLink'>Click here to <b id="userEmail">log in</b></span>
 			<span><img class='myDashProfileImgClass'></img></span>
 		</div>	
 	</div>
 	
 	<div class="myDashNavBarClass">
-		<div id="reqRecording" class="myDashNavBtnClass">Request a Recording</div>
-		<div id="makeRecording" class="myDashNavBtnClass">Make/Upload a Recording</div>
-		<div id="myRecordings" class="myDashNavBtnClass">My Recordings</div>
+		<div id="reqRecording" onclick="showReqRecording()" class="myDashNavBtnClass btnHover">Request a Recording</div>
+		<div id="makeRecording" onclick="showMakeRecording()" class="myDashNavBtnClass btnHover">Make/Upload a Recording</div>
+		<div id="myRecordings" onclick="showMyRecordings()" class="myDashNavBtnClass btnHover">My Recordings</div>
 	</div>
 	
-	
+	<!-- content goes here -->
+	<div id="myDashContent" class="myDashContentContainerClass"></div>	
+
 </div>
+
+
 <script type="text/javascript" src="js/loginSignup.js"></script>
 <script type="text/javascript" src="js/mydash.js"></script>
-
-
 </body>
+
+
 </html>
 

@@ -3,7 +3,7 @@
 //check if a session already exists
 include "sessionStuff.php";
 if($_SESSION["loggedIn"]==true){echo 1; return;}
-
+if($_POST["email"]=="reject"){echo 0; return;}
 
 
 

@@ -1,4 +1,4 @@
-
+/*----------title and nav bar---------------*/
 .myDashContainerClass{
 	margin: 50px auto;
 	border: 3px solid rgb(128, 128, 255);
@@ -6,12 +6,11 @@
 	background-color: aliceblue;
 	border-radius: 10px;
 	text-align:center;
+	color: rgb(26, 103, 103);
 }
 
-
-
 .myDashTitleClass{
-  font-size: 30px;
+  font-size: 40px;
   font-weight: bold;
   color: rgb(128, 128, 255);
 
@@ -19,12 +18,12 @@
 
 .myDashEmailContainerClass{
   padding: 6px;
-  color: rgb(26, 103, 103);
   margin-top: 5px;
 }
+#userProfileLink:hover{cursor:pointer;}
+
 
 .myDashProfileImgClass{
-	background-image: url('');
   height: 60px;
   width: 60px;
   background-position: fit;
@@ -33,9 +32,8 @@
   display:none;
 }
 
+.btnHover:hover{cursor:pointer;border:2px solid !important;}
 
-.myDashLogoutClass:hover, .myDashNavBtnClass:hover{
-	cursor:pointer;border:2px dashed;}
 
 
 .myDashNavBarClass{
@@ -50,14 +48,33 @@
   padding: 7px;
   font-size:18px;
   margin-left: 11px;
+  margin-top:10px;
 }
 
 
 
 
 
+/*-----------------req recording-----------------*/
+.myDashContentContainerClass{
+	margin-top:35px;
+	font-size: 19px;
+}
+.myDashContentContainerClass input{
+	margin-top:2px;
+	font-size: 19px;
+	width:270px;
+}
 
-
+.myDashBigBtnClass{
+  display: inline-block;
+  padding: 10px;
+  font-size: 25px;
+  font-weight: bold;
+  border: 2px solid rgb(128, 128, 255);
+  border-radius: 5px;
+  margin: 24px 0px 3px 0px;
+}
 
 
 
